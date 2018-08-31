@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - MockLab",
+	"description": "This is a repository of mocklab APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/mocklab.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-30",
+	"url": "http://mocklab.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "MockLab",
+			"x-api-slug": "mocklab",
+			"description": "MockLab helps teams ship better apps faster by mocking APIs that arent ready, dont have a reliable sandbox or have high usage charges. Keep building and testing when the APIs you use arent ready. Ship more robust systems by simulating edge cases and faults. Performance testing without large 3rd party bills. Simulate stateful behaviour in your mocked API using a simple finite state machine model. Dynamically render responses using the Handlebars templating language. Craft your simulation using the friendly, no-code UI or go fully automated with the 100% WireMock-compatible API. Capture traffic to another API, then play it back from MockLab. Mock the unfinished parts of the API and proxy the rest straight through to the real thing. Test your app to destruction by injecting delays, dropped connections, drip-drip responses and corrupt HTTP payloads. All the power and flexibility you need for pain-free testing.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mocklab_Logo_4x.png",
+			"humanURL": "https://get.mocklab.io",
+			"baseURL": "https:////__admin",
+			"tags": "MockLab",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/mocklab/master/_listings/mocklab/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "MockLab",
+	"include": [
+		{
+			"name": "MockLab",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/mocklab/master/_listings/mocklab/apis.yaml"
+		}
+	]
+}
